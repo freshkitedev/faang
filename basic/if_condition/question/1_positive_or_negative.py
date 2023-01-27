@@ -1,6 +1,6 @@
 # Write a program to find a given number is positive negative or zero.#If the number is positive you should print POSITIVE , or if the number 
 # is negative you should print NEGATIVE or if the number is 0 you 
-# should print ZERO.
+# should print ZERO.....
 #Complete the function below and store your result in ans variable
 def positive_or_negative(num):
    #Practise yourself : write your code here 
