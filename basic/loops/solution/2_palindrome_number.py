@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
         expected = "Not Palindrome"
         self.assertEqual(actual, expected)
     def test_two_num_sum4(self):
-        actual = palindrome(7)
+        actual = palindrome(8)
         expected = "Palindrome"
         self.assertEqual(actual, expected)
 unittest.main(verbosity=2)
