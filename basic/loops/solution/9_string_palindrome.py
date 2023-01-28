@@ -1,4 +1,5 @@
 #Write a Python program to check if a given string is a palindrome
+# if string is palindrome means return true or return false
 
 def string_palindrome(n):
     
