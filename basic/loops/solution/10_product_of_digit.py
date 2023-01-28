@@ -1,5 +1,5 @@
 # write a program to find the product of digits of a number.
-    
+# s will return the product of the digits    
 
 def prod(n):
     s = 1
