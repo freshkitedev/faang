@@ -1,4 +1,6 @@
 # Write a program to a given number is palindrome or not.
+# If the given number is Palindrome return Palindrome (or) 
+# the given number is Not Palindrome return Not Palindrome.
 
 def palindrome(n):
     num = n
