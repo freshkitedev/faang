@@ -1,9 +1,16 @@
 # Write a program to a given number is palindrome or not.
 
 def palindrome(n):
-    a = 0
-    
-    return a
+    num = n
+    pal = rem = 0
+    while (num):
+        rem = num % 10
+        pal = rem + pal * 10
+        num //= 10
+    if n == pal:
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
 
 import unittest
 
@@ -21,7 +28,7 @@ class Test(unittest.TestCase):
         expected = "Not Palindrome"
         self.assertEqual(actual, expected)
     def test_two_num_sum4(self):
-        actual = palindrome(7)
+        actual = palindrome(8)
         expected = "Palindrome"
         self.assertEqual(actual, expected)
 unittest.main(verbosity=2)
