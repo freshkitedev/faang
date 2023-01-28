@@ -6,7 +6,7 @@ def sum_of_digit(n):
 
 
     
- print(sum_of_digit(n))
+print(sum_of_digit(n))
 
 
 import unittest
