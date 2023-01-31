@@ -1,10 +1,7 @@
 #write Python Program to find the L.C.M. of two input number
 
-def lcm(x, y):
-    
-  pass
-
-
+def lcm(n1, n2):
+    pass
 
 import unittest
 

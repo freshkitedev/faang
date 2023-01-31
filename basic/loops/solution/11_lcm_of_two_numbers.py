@@ -1,15 +1,11 @@
-def lcm(x, y):
-    if x > y:
-       great = x
-    else:
-         great = y
-
+def lcm(n1, n2):
+    lcm = n2
+    if (n1 > n2):
+        lcm = n1
     while(True):
-       if((great % x == 0) and (great % y == 0)):
-           lcmoftwono = great
-           break
-       great += 1
-    return lcmoftwono
+        if (lcm % n1 == 0) and (lcm % n2 == 0):
+            return lcm
+        lcm += lcm
    
 import unittest
 
