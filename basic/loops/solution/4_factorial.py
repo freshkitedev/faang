@@ -7,8 +7,6 @@ def factorial(n):
     else:
          n=n*factorial(n-1)
          return n
-num = int(input())
-print(factorial(num))
 
 import unittest
 
