@@ -1,9 +1,12 @@
 #Write a program to find factorial of a number
 
+
 def factorial(n):
-    a = 0
-    #Write the code here..
-    return a
+    if n==1 or n==0:
+       return 1
+    else:
+         n=n*factorial(n-1)
+         return n
 
 import unittest
 
