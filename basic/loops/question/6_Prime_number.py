@@ -1,4 +1,5 @@
 # Write a program to find a number is prime number or not.
+# The function should return "Prime number" or "Not Prime Number"
 
 def Prime(n):
     #write code here
