@@ -1,9 +1,17 @@
 #write a program to a given number is amstrong or not.
 n=int(input())
 def amstrong(n):
-    a=0
-    #write your code here...
-    return a
+    order=len(str(n))
+    sum=0
+    num=n
+    while(num>0):
+        rem=num%10
+        sum+=rem**order
+        num=num//10
+    if n==sum:
+        return "amstrong"
+    else:
+        return "not_amstrong"
 
 import unittest
 
