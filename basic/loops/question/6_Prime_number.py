@@ -2,9 +2,8 @@
 # The function should return "Prime number" or "Not Prime Number"
 
 def Prime(n):
-    #write code here
     
-    return 
+    pass 
 
 
 import unittest
