@@ -1,4 +1,4 @@
-#Write a program to find factorial of a number...
+#Write a program to find factorial of a number.
 
 
 def factorial(n):
