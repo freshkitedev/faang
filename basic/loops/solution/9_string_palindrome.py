@@ -7,12 +7,12 @@ def string_palindrome(n):
     e = len(n) - 1
     while (s < e):
      
-        if (n[s] == n[e] ):
-            s += 1
-            e -= 1
+        if (n[s] != n[e] ):
+          
+           return False 
 
-        else :
-            return False 
+        s += 1
+        e -= 1  
 
     return True    
       
