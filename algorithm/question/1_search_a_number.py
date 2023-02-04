@@ -2,7 +2,10 @@
 # of number n in arr - Linear search - O(n
 
 def search(arr, n):
-    pass
+    for i in range(len(arr)):
+        if n == arr[i]:
+            return i
+    return -1
 
 import unittest
 
