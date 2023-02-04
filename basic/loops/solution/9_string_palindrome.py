@@ -3,15 +3,26 @@
 
 def string_palindrome(n):
     
-    s = ""                # here i am declaring empty variable as s
-    for i in n:           # reversing a string using "for loop" and "in" method, if u dont understand how it works ,debug and check it 
-        s = i + s 
-    
-    if( n == s ):
-        return True
-    else:
-        return False    
+    s = 0
+    e = len(n) - 1
+    while (s < e):
+     
+        if (n[s] == n[e] ):
+            s += 1
+            e -= 1
 
+        else :
+            return False 
+
+    return True    
+      
+
+
+
+
+
+    
+   
 
 
 
