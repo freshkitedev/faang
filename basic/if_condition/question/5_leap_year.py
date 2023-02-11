@@ -20,4 +20,8 @@ class Test(unittest.TestCase):
         actual = leap_year(2020)
         expected ="leapyear"
         self.assertEqual(actual, expected)
+    def find_leap_year(self):
+        actual = leap_year(1990)
+        expected = "not a leap year"
+        self.assertEqual(actual, expected)
 unittest.main(verbosity=2)
