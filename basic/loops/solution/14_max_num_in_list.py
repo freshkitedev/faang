@@ -1,7 +1,7 @@
 # Program to find maximum number in list
 def max_num_in_list(arr):
     max = arr[0]
-    for i in range(0,len(arr)): 
+    for i in range(1,len(arr)): 
         if(max < arr[i]):
             max = arr[i]
     return max              
