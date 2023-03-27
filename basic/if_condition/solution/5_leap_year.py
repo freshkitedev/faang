@@ -15,20 +15,20 @@ def leap_year(n):
 import unittest
 
 class Test(unittest.TestCase):
-    def find_leap_year(self):
+    def test_two_num_sum1(self):
         actual = leap_year(1700)
-        expected ="leapyear"
-        self.assertEqual(actual, expected)
-    def find_leap_year(self):
-        actual = leap_year(2018)
-        expected ="not a leap year"
-        self.assertEqual(actual, expected)
-    def find_leap_year(self):
-        actual = leap_year(2020)
-        expected ="leapyear"
-        self.assertEqual(actual, expected)
-    def find_leap_year(self):
-        actual = leap_year(1990)
         expected = "not a leap year"
+        self.assertEqual(actual, expected)
+    def test_two_num_sum2(self):
+        actual = leap_year(1935)
+        expected = "not a leap year"
+        self.assertEqual(actual, expected)
+    def test_two_num_sum3(self):
+        actual = leap_year(1600)
+        expected = "leapyear"
+        self.assertEqual(actual, expected)
+    def test_two_num_sum4(self):
+        actual = leap_year(2008)
+        expected = "leapyear"
         self.assertEqual(actual, expected)
 unittest.main(verbosity=2)
