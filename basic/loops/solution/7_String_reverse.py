@@ -2,9 +2,25 @@
 
 def reverse_string(n):
     
-    #code here
+    s = 0
+    e = len(n) - 1
+    list_1 = list(n.strip(" "))
+    while (s < e):
+        
+        temp = list_1[s]
+        list_1[s] = list_1[e]
+        list_1[e] = temp       
+
+        s += 1
+        e -= 1  
+           
+    return (''.join(list_1))
     
-    pass
+    # str = ''
+    
+    # for i in n:
+    #     str = i + str
+    # return str
 
 
 import unittest
