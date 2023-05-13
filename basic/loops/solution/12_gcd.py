@@ -1,13 +1,18 @@
 def gcd(n1, n2):
-    gcd = n1
-    if (n2 < n1):
-        gcd = n2
-    while(gcd != 1):
-        if(n1 %gcd  == 0 and n2 % gcd == 0):
-            return gcd
-        gcd -= 1
-    return -1  
-
+    gcd = n1 
+    big = n1
+    if n1>n2:
+        gcd = n2 
+    else:
+        big = n2
+    small = gcd 
+    d=2
+    while(big % gcd!=0): 
+            if small % d == 0:
+                gcd = small //d
+            d+=1
+    return gcd 
+ 
 import unittest
 
 class Test(unittest.TestCase):
