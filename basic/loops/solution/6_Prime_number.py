@@ -2,11 +2,13 @@
 
 
 def Prime(n):
-    m = n // 2
-    for i in range(2,m+1):
-        if (n % i)== 0:
+   for i in range(2,10):
+        if(i == n):
+            break 
+        if(n % i == 0):
             return "Not Prime number"
-    return "Prime number"
+        
+   return "Prime number"
 
 
 import unittest
