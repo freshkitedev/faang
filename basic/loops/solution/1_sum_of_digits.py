@@ -1,6 +1,5 @@
 # write a program to find the sum of digits of a number.
 # write a program to find sum of digits of an integer.......
-n=int(input())
 
 def sum_of_digit(n):
     sum=0
