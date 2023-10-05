@@ -5,17 +5,8 @@
 #Complete the function below and store your result in ans variable
 def positive_or_negative(num):
    #Practise yourself : write your code here 
-   ans = ""
-   if (num > 0):
-       ans="POSITIVE"
-       
-   elif (num < 0):
-       ans = "NEGATIVE"
-       
-   else:
-       ans = "ZERO"
-    
-   return ans
+   
+   
 import unittest
 
 class Test(unittest.TestCase):

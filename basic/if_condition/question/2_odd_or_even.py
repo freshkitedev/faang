@@ -4,13 +4,7 @@
 #If the input number is 0 or negative print "INVALID NUMBER"
 #Complete the function below and store your result in ans variable
 def odd_or_even(num):
-    ans = " "
-    if (num <= 0):
-        ans = "INVALID NUMBER"
-    elif (num % 2 == 0):
-        ans = "EVEN"
-    else:
-        ans = "ODD"
+    
    #Practise yourself : write your code here 
 
     return ans
