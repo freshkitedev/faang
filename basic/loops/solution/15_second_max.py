@@ -1,6 +1,20 @@
 # Write Program to find second maximum number in list
 def second_max_num_in_list(arr):
-    pass
+    l = len(arr)
+
+    if(l <= 1):
+        return -1
+    max = arr[0]
+    secondmax = 0
+
+    for i in range(1,l):
+      if(max < arr[i]):
+         secondmax = max 
+         max = arr[i]
+      if(secondmax < arr[i] and max > arr[i]):
+         secondmax = arr[i]   
+    return secondmax
+
 
 
 
