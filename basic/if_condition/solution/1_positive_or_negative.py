@@ -6,9 +6,9 @@
 def positive_or_negative(num):
    #Practise yourself : write your code here 
    ans = ""
-   if num < 0:
+   if num > 0:
        ans = "POSITIVE"
-   elif num > 0:
+   elif num < 0:
         ans = "NEGATIVE"
    else:
         ans = "ZERO"
@@ -16,17 +16,17 @@ def positive_or_negative(num):
 import unittest
 
 class Test(unittest.TestCase):
-    def test_positive_or_negative(self):
+    def test_positive_or_negative1(self):
         num = 5
         actual = positive_or_negative(num)
         expected = "POSITIVE"
         self.assertEqual(actual, expected)
-    def test_positive_or_negative(self):
+    def test_positive_or_negative2(self):
         num = -2
         actual = positive_or_negative(num)
         expected = "NEGATIVE"
         self.assertEqual(actual, expected)
-    def test_positive_or_negative(self):
+    def test_positive_or_negative3(self):
         num = 0
         actual = positive_or_negative(num)
         expected = "ZERO"
