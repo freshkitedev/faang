@@ -1,13 +1,17 @@
 def lcm(n1, n2):
-    lcm = n2
-    if (n1 > n2):
-        lcm = n1
-    greatest = lcm    
-    while(True):
-        if (lcm % n1 == 0) and (lcm % n2 == 0):
-            return lcm
-        lcm += greatest
-   
+    lcm  = n1 
+    small =  n1 
+    if n1<n2:
+        lcm = n2 
+    else:
+        small = n1 
+    greatest =  lcm 
+    while(lcm % small !=0):
+        lcm += greatest 
+    return lcm 
+
+       
+          
 import unittest
 
 class Test(unittest.TestCase):
